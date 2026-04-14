@@ -3,7 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ayaz Karadağ | IT Specialist & Developer Portfolio</title>
+    <title>Ayaz Karadağ | IT Specialist & Developer</title>
+    <meta property="og:title" content="Ayaz Karadağ | IT Specialist & Developer">
+    <meta property="og:description" content="8 yıllık turizm ve 4 yıllık yazılım tecrübesiyle IT Operasyon ve Otomasyon Uzmanı.">
+    <meta property="og:image" content="https://ayazlabs.github.io/cv/ayaz.jpg">
+    <meta property="og:url" content="https://ayazlabs.github.io/cv/">
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -23,297 +28,133 @@
         .gradient-bg {
             background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
         }
-        .timeline-dot {
-            box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.2);
-        }
     </style>
 </head>
 <body class="text-gray-200">
 
     <nav class="fixed top-0 w-full z-50 py-4 px-6 md:px-10 flex justify-between items-center glass-card border-none rounded-none">
         <div class="text-xl md:text-2xl font-extrabold tracking-tighter text-white">
-            AYAZ<span class="text-blue-500">.</span>DEV
+            AYAZ<span class="text-blue-500">.</span>LABS
         </div>
-        <div class="hidden md:flex space-x-6 text-xs md:text-sm font-semibold uppercase tracking-widest">
-            <a href="#about" class="hover:text-blue-400 transition">Hakkımda</a>
-            <a href="#experience" class="hover:text-blue-400 transition">Deneyim</a>
-            <a href="#education" class="hover:text-blue-400 transition">Eğitim</a>
-            <a href="#skills" class="hover:text-blue-400 transition">Yetenekler</a>
+        <div class="hidden md:flex space-x-6 text-xs md:text-sm font-semibold uppercase tracking-widest text-gray-400">
+            <a href="#home" class="hover:text-white transition">Ana Sayfa</a>
+            <a href="#about" class="hover:text-white transition">Hakkımda</a>
+            <a href="#experience" class="hover:text-white transition">Deneyim</a>
+            <a href="#projects" class="hover:text-white transition">Projeler</a>
+            <a href="#contact" class="hover:text-white transition">İletişim</a>
         </div>
     </nav>
 
-    <section id="home" class="min-h-screen flex items-center pt-24 px-6 md:px-10">
+    <header id="home" class="min-h-screen flex items-center pt-24 px-6 md:px-10">
         <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
             <div class="order-2 md:order-1">
-                <h3 class="text-blue-500 font-bold tracking-[0.2em] mb-4 text-sm md:text-base">IT & YAZILIM DÜNYASINA HOŞ GELDİNİZ</h3>
+                <h3 class="text-blue-500 font-bold tracking-[0.2em] mb-4 text-sm">IT & YAZILIM OPERASYONU</h3>
                 <h1 class="text-5xl md:text-7xl font-black text-white leading-none mb-6">
                     Ayaz <br> <span class="text-transparent bg-clip-text gradient-bg">Karadağ</span>
                 </h1>
-                <p class="text-gray-400 text-base md:text-lg max-w-lg mb-8 leading-relaxed">
-                    8 yıl boyunca turizm sektöründe edindiğim operasyonel deneyimi, 4 yıllık bilgisayar programcılığı ve yazılım geliştirme altyapımla birleştirerek güçlü teknik çözümler üretiyorum.
+                <p class="text-gray-400 text-lg max-w-lg mb-8 leading-relaxed">
+                    Python tabanlı otomasyonlar, sunucu yönetimi ve turizm teknolojileri alanında uçtan uca çözümler üreten, 8 yıllık sektör deneyimine sahip bir IT Uzmanıyım.
                 </p>
                 <div class="flex flex-wrap gap-4">
-                    <a href="#contact" class="gradient-bg px-6 py-3 rounded-full font-bold text-white shadow-lg shadow-blue-500/20 hover:scale-105 transition">İletişime Geç</a>
-                    <a href="#experience" class="glass-card px-6 py-3 rounded-full font-bold text-white hover:bg-white/10 transition">Tüm Deneyimler</a>
+                    <a href="#contact" class="gradient-bg px-8 py-4 rounded-full font-bold text-white shadow-xl shadow-blue-500/20 hover:scale-105 transition">İletişime Geç</a>
+                    <a href="AYAZ-KARADAG-CV.pdf" download class="glass-card px-8 py-4 rounded-full font-bold text-white hover:bg-white/10 transition flex items-center gap-2 border border-blue-500/30">
+                        <i class="fa-solid fa-file-pdf text-red-500"></i> CV İndir (PDF)
+                    </a>
                 </div>
             </div>
             <div class="flex justify-center relative order-1 md:order-2">
-                <div class="w-64 h-64 md:w-80 md:h-80 rounded-[2rem] overflow-hidden rotate-3 hover:rotate-0 transition-all duration-500 border-4 border-blue-500/30">
-                    <img src="resim/ayaz.png" alt="Ayaz Karadağ" class="w-full h-full object-cover">
+                <div class="w-64 h-64 md:w-80 md:h-80 rounded-[2.5rem] overflow-hidden rotate-3 hover:rotate-0 transition-all duration-500 border-4 border-blue-500/30 shadow-2xl">
+                    <img src="ayaz.jpg" alt="Ayaz Karadağ" class="w-full h-full object-cover">
                 </div>
-                <div class="absolute -z-10 w-64 h-64 bg-blue-600/20 rounded-full blur-[100px] top-0 left-0"></div>
+                <div class="absolute -z-10 w-72 h-72 bg-blue-600/10 rounded-full blur-[100px] top-0"></div>
             </div>
         </div>
-    </section>
+    </header>
 
     <section id="about" class="py-20 px-6 md:px-10 bg-[#070b1d]">
         <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-12">
             <div class="md:col-span-2">
-                <h2 class="text-3xl font-bold text-white mb-6 border-b border-white/10 pb-4">Profesyonel Özet</h2>
+                <h2 class="text-3xl font-bold text-white mb-6">Profesyonel Vizyon</h2>
                 <p class="text-gray-400 text-lg leading-relaxed mb-6">
-                    8 yıl boyunca turizm sektöründe edindiğim deneyim, müşteri ilişkileri ve problem çözme becerilerimi geliştirmeme olanak tanıdı. Ayrıca, 4 yıl bilgisayar programcılığı deneyimim ile teknik bilgi ve yazılım geliştirme alanında güçlü bir altyapıya sahibim. Uluslararası İlişkiler alanındaki eğitimim, farklı kültürler ve iş ortamlarıyla etkili bir şekilde iletişim kurma yeteneğimi pekiştirdi.
+                    Turizm operasyonlarının karmaşıklığını, yazdığım Python scriptleri ve kurduğum sunucu altyapılarıyla sadeleştiriyorum. Sejour migrasyonlarından FastAPI tabanlı backend sistemlerine kadar geniş bir yelpazede, teknolojiyi bir maliyet kalemi değil, bir verimlilik aracı olarak kullanıyorum.
                 </p>
-                
-                <h3 class="text-xl font-bold text-white mb-4 mt-8">Kişisel Bilgiler & Hobiler</h3>
-                <div class="grid grid-cols-2 gap-4 text-gray-400 text-sm">
-                    <p><strong class="text-white">Doğum Yılı:</strong> 1990 (36 Yaş)</p>
-                    <p><strong class="text-white">Lokasyon:</strong> Antalya, Kepez</p>
-                    <p><strong class="text-white">Askerlik:</strong> Yapıldı</p>
-                    <p><strong class="text-white">Sürücü Belgesi:</strong> B Sınıfı</p>
-                </div>
-                <div class="mt-4 flex flex-wrap gap-2">
-                    <span class="bg-white/5 px-3 py-1 rounded-full text-xs text-blue-300">Yüzme</span>
-                    <span class="bg-white/5 px-3 py-1 rounded-full text-xs text-blue-300">Fitness</span>
-                    <span class="bg-white/5 px-3 py-1 rounded-full text-xs text-blue-300">Sinema</span>
-                    <span class="bg-white/5 px-3 py-1 rounded-full text-xs text-blue-300">Dağcılık</span>
+                <div class="grid grid-cols-2 gap-4 text-sm border-t border-white/10 pt-6">
+                    <p><strong class="text-white">Yaş:</strong> 36</p>
+                    <p><strong class="text-white">Konum:</strong> Antalya / Kepez</p>
+                    <p><strong class="text-white">Eğitim:</strong> Bilgisayar Programcılığı</p>
+                    <p><strong class="text-white">Uzmanlık:</strong> Otomasyon & Sistem</p>
                 </div>
             </div>
-            
             <div class="glass-card p-8 rounded-3xl h-fit">
-                <h3 class="text-xl font-bold text-white mb-6">Dil Yetkinlikleri</h3>
-                <div class="space-y-6">
+                <h3 class="text-xl font-bold text-white mb-6">Diller</h3>
+                <div class="space-y-4">
                     <div>
-                        <div class="flex justify-between mb-2">
-                            <span class="text-sm font-semibold">İngilizce</span>
-                            <span class="text-xs text-blue-400">Orta Seviye</span>
-                        </div>
-                        <div class="w-full bg-gray-800 h-2 rounded-full overflow-hidden">
-                            <div class="bg-blue-500 h-full w-[60%]"></div>
-                        </div>
+                        <div class="flex justify-between mb-1"><span class="text-xs">İngilizce</span><span class="text-xs text-blue-400">Orta</span></div>
+                        <div class="w-full bg-gray-800 h-1.5 rounded-full"><div class="bg-blue-500 h-full w-[65%]"></div></div>
                     </div>
                     <div>
-                        <div class="flex justify-between mb-2">
-                            <span class="text-sm font-semibold">Rusça</span>
-                            <span class="text-xs text-blue-400">Temel Seviye</span>
-                        </div>
-                        <div class="w-full bg-gray-800 h-2 rounded-full overflow-hidden">
-                            <div class="bg-blue-500 h-full w-[30%]"></div>
-                        </div>
+                        <div class="flex justify-between mb-1"><span class="text-xs">Rusça</span><span class="text-xs text-blue-400">Temel</span></div>
+                        <div class="w-full bg-gray-800 h-1.5 rounded-full"><div class="bg-blue-500 h-full w-[30%]"></div></div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="experience" class="py-20 px-6 md:px-10">
+    <section id="projects" class="py-20 px-6 md:px-10">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl font-bold text-white mb-12 text-center">Öne Çıkan Projeler</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="glass-card p-8 rounded-3xl">
+                    <i class="fa-solid fa-robot text-4xl text-blue-500 mb-6"></i>
+                    <h4 class="text-xl font-bold mb-2 text-white">B2B Otel Fiyat Botu</h4>
+                    <p class="text-gray-400 text-sm mb-4">Python ve Playwright kullanılarak geliştirilen, çoklu B2B kanallarından veri çekip fiyat analizi yapan otomasyon sistemi.</p>
+                    <div class="flex gap-2"><span class="text-[10px] bg-blue-500/20 text-blue-400 px-2 py-1 rounded">Python</span><span class="text-[10px] bg-blue-500/20 text-blue-400 px-2 py-1 rounded">Scraping</span></div>
+                </div>
+                <div class="glass-card p-8 rounded-3xl">
+                    <i class="fa-solid fa-link text-4xl text-purple-500 mb-6"></i>
+                    <h4 class="text-xl font-bold mb-2 text-white">SonPaket.com</h4>
+                    <p class="text-gray-400 text-sm mb-4">FastAPI ve modern web teknolojileri ile geliştirilen, dijital servis yönetim ve randevu platformu.</p>
+                    <div class="flex gap-2"><span class="text-[10px] bg-purple-500/20 text-purple-400 px-2 py-1 rounded">FastAPI</span><span class="text-[10px] bg-purple-500/20 text-purple-400 px-2 py-1 rounded">Backend</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="py-20 px-6 md:px-10 bg-[#070b1d]">
         <div class="max-w-5xl mx-auto">
-            <h2 class="text-3xl font-bold text-center text-white mb-16 border-b border-white/10 pb-4">Tüm İş Deneyimleri</h2>
-            <div class="space-y-8">
-                
-                <div class="relative pl-8 md:pl-12 border-l-2 border-blue-500/20">
-                    <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-blue-500 timeline-dot"></div>
-                    <div class="glass-card p-6 md:p-8 rounded-2xl">
-                        <span class="text-blue-400 font-bold text-xs tracking-widest uppercase">Kasım 2025 — Nisan 2026</span>
-                        <h3 class="text-xl font-bold text-white mt-1">Bilgi İşlem Destek Elemanı</h3>
-                        <p class="text-gray-500 mb-4 text-sm font-semibold">Festatur Global | Antalya</p>
-                        <p class="text-sm text-gray-400 leading-relaxed">
-                            IT altyapısının yönetimi ve turizm operasyonlarının teknolojiyle optimizasyonu. Sejour rezervasyon sistemlerinin kurulumu, server migration süreçleri, Python tabanlı otomasyon araçlarının geliştirilmesi ve şirket içi network donanım destek süreçlerinin yürütülmesi.
-                        </p>
-                    </div>
+            <h2 class="text-3xl font-bold text-white mb-16 text-center">Deneyim Kronolojisi</h2>
+            <div class="space-y-12">
+                <div class="relative pl-10 border-l-2 border-blue-500/30">
+                    <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-blue-500"></div>
+                    <h4 class="text-lg font-bold text-white">Bilgi İşlem Destek Elemanı (IT & Ops)</h4>
+                    <p class="text-blue-400 text-sm mb-4">Festatur Global | 2025 - 2026</p>
+                    <p class="text-gray-400 text-sm leading-relaxed italic">Sejour sunucu migrasyonu, ağ güvenliği ve Python otomasyon süreçlerinin geliştirilmesi.</p>
                 </div>
-
-                <div class="relative pl-8 md:pl-12 border-l-2 border-blue-500/20">
-                    <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-blue-500 timeline-dot"></div>
-                    <div class="glass-card p-6 md:p-8 rounded-2xl">
-                        <span class="text-blue-400 font-bold text-xs tracking-widest uppercase">Ağustos 2024 — Haziran 2025</span>
-                        <h3 class="text-xl font-bold text-white mt-1">Yazılım Destek Elemanı</h3>
-                        <p class="text-gray-500 mb-4 text-sm font-semibold">Kepez Yazılım | Antalya</p>
-                        <p class="text-sm text-gray-400 leading-relaxed">Kullanıcı yazılım sorunlarının çözümü, sistem optimizasyonu, yazılım geliştirme süreçlerine katkı ve teknik destek eğitim materyallerinin hazırlanması.</p>
-                    </div>
-                </div>
-
-                <div class="relative pl-8 md:pl-12 border-l-2 border-blue-500/20">
-                    <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-blue-500 timeline-dot"></div>
-                    <div class="glass-card p-6 md:p-8 rounded-2xl">
-                        <span class="text-blue-400 font-bold text-xs tracking-widest uppercase">Nisan 2024 — Haziran 2024</span>
-                        <h3 class="text-xl font-bold text-white mt-1">Transfer Sorumlusu</h3>
-                        <p class="text-gray-500 mb-2 text-sm font-semibold">Mice Logistic Services | Antalya</p>
-                        <p class="text-sm text-gray-400">Havalimanı araç giriş çıkış saatlerinin takibi ve misafir ulaşım organizasyonu.</p>
-                    </div>
-                </div>
-
-                <div class="relative pl-8 md:pl-12 border-l-2 border-blue-500/20">
-                    <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-blue-500 timeline-dot"></div>
-                    <div class="glass-card p-6 md:p-8 rounded-2xl">
-                        <span class="text-blue-400 font-bold text-xs tracking-widest uppercase">Ocak 2022 — Ocak 2024</span>
-                        <h3 class="text-xl font-bold text-white mt-1">Yazılım Destek Elemanı</h3>
-                        <p class="text-gray-500 mb-2 text-sm font-semibold">Kepez Yazılım | Antalya</p>
-                        <p class="text-sm text-gray-400">Bilgi işlem, yazılım ve donanım kurulum desteği. Hosting, domain hizmetleri ve WordPress yönetimi.</p>
-                    </div>
-                </div>
-
-                <div class="relative pl-8 md:pl-12 border-l-2 border-gray-700">
+                <div class="relative pl-10 border-l-2 border-gray-700">
                     <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-gray-600"></div>
-                    <div class="p-4 rounded-xl hover:bg-white/5 transition">
-                        <span class="text-gray-400 font-bold text-xs tracking-widest uppercase">Nisan 2018 — Aralık 2021</span>
-                        <h3 class="text-lg font-bold text-gray-200 mt-1">Operasyon Süpervizörü</h3>
-                        <p class="text-gray-500 text-sm">Akay Turizm | Antalya</p>
-                        <p class="text-sm text-gray-400 mt-2">Side bölge operasyonu; Tur, Shop, Havalimanı Transfer ve Araç operasyon pozisyonlarının yönetimi.</p>
-                    </div>
+                    <h4 class="text-lg font-bold text-white">Yazılım Destek Elemanı</h4>
+                    <p class="text-gray-500 text-sm mb-4">Kepez Yazılım | 2022 - 2025</p>
+                    <p class="text-gray-400 text-sm leading-relaxed">Sistem bakımı, hosting yönetimi, WordPress ve kurumsal teknik destek süreçleri.</p>
                 </div>
-
-                <div class="relative pl-8 md:pl-12 border-l-2 border-gray-700">
+                <div class="relative pl-10 border-l-2 border-gray-700 opacity-60">
                     <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-gray-600"></div>
-                    <div class="p-4 rounded-xl hover:bg-white/5 transition">
-                        <span class="text-gray-400 font-bold text-xs tracking-widest uppercase">Mart 2017 — Haziran 2017</span>
-                        <h3 class="text-lg font-bold text-gray-200 mt-1">Rezervasyon Elemanı</h3>
-                        <p class="text-gray-500 text-sm">Mika Tur / Tatilbudur | Antalya</p>
-                        <p class="text-sm text-gray-400 mt-2">Chat ekranı, acenteler rezervasyon ve call center destek hizmetleri.</p>
-                    </div>
+                    <h4 class="text-lg font-bold text-white">Operasyon Süpervizörü</h4>
+                    <p class="text-gray-500 text-sm mb-2">Akay Turizm | 2018 - 2021</p>
                 </div>
-
-                <div class="relative pl-8 md:pl-12 border-l-2 border-gray-700">
-                    <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-gray-600"></div>
-                    <div class="p-4 rounded-xl hover:bg-white/5 transition">
-                        <span class="text-gray-400 font-bold text-xs tracking-widest uppercase">Aralık 2015 — Şubat 2017</span>
-                        <h3 class="text-lg font-bold text-gray-200 mt-1">Operasyon Elemanı</h3>
-                        <p class="text-gray-500 text-sm">ANI TUR | Antalya</p>
-                        <p class="text-sm text-gray-400 mt-2">Chat ekranı, rezervasyon, operasyon, iptal ve iade süreçlerinin takibi.</p>
-                    </div>
-                </div>
-
-                <div class="relative pl-8 md:pl-12 border-l-2 border-gray-700">
-                    <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-gray-600"></div>
-                    <div class="p-4 rounded-xl hover:bg-white/5 transition">
-                        <span class="text-gray-400 font-bold text-xs tracking-widest uppercase">Mayıs 2013 — Ekim 2015</span>
-                        <h3 class="text-lg font-bold text-gray-200 mt-1">Acente Temsilcisi</h3>
-                        <p class="text-gray-500 text-sm">Ani Tur | Antalya</p>
-                        <p class="text-sm text-gray-400 mt-2">Acente temsilcisi ve rehberlik hizmetleri.</p>
-                    </div>
-                </div>
-
-                <div class="relative pl-8 md:pl-12 border-l-2 border-gray-700">
-                    <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-gray-600"></div>
-                    <div class="p-4 rounded-xl hover:bg-white/5 transition">
-                        <span class="text-gray-400 font-bold text-xs tracking-widest uppercase">Haziran 2005 — Ekim 2012</span>
-                        <h3 class="text-lg font-bold text-gray-200 mt-1">Acente Temsilcisi</h3>
-                        <p class="text-gray-500 text-sm">Bond Turizm | Antalya</p>
-                        <p class="text-sm text-gray-400 mt-2">Kendi acentamız bünyesinde tur satışı, ofis operasyonları ve VIP transfer organizasyonları.</p>
-                    </div>
-                </div>
-
             </div>
         </div>
     </section>
 
-    <section id="education" class="py-20 px-6 md:px-10 bg-[#070b1d]">
-        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16">
-            
-            <div>
-                <h2 class="text-3xl font-bold text-white mb-10 border-b border-white/10 pb-4">Eğitim Bilgileri</h2>
-                <div class="space-y-6">
-                    <div class="glass-card p-6 rounded-2xl border-l-4 border-blue-500">
-                        <span class="text-xs font-bold text-blue-400 uppercase tracking-wider">Ekim 2023 - Devam Ediyor</span>
-                        <h4 class="text-xl font-bold text-white mt-1">Bilgisayar Programcılığı (Önlisans)</h4>
-                        <p class="text-gray-400 text-sm">Atatürk Üniversitesi, Erzurum MYO (Uzaktan Öğretim)</p>
-                    </div>
-                    <div class="glass-card p-6 rounded-2xl">
-                        <span class="text-xs font-bold text-gray-500 uppercase tracking-wider">Ekim 2015 - Terk</span>
-                        <h4 class="text-lg font-bold text-gray-300 mt-1">Uluslararası İlişkiler (Lisans)</h4>
-                        <p class="text-gray-500 text-sm">Atatürk Üniversitesi, İngilizce (Uzaktan Öğretim)</p>
-                    </div>
-                    <div class="glass-card p-6 rounded-2xl">
-                        <span class="text-xs font-bold text-gray-500 uppercase tracking-wider">Eyl 2013 - Haz 2015</span>
-                        <h4 class="text-lg font-bold text-gray-300 mt-1">Turizm ve Seyahat İşletmeciliği (Önlisans)</h4>
-                        <p class="text-gray-500 text-sm">Afyon Kocatepe Üniversitesi (Diploma Notu: 2.27/5)</p>
-                    </div>
-                    <div class="glass-card p-6 rounded-2xl">
-                        <span class="text-xs font-bold text-gray-500 uppercase tracking-wider">Temmuz 2009 Mezuniyeti</span>
-                        <h4 class="text-lg font-bold text-gray-300 mt-1">Sosyal Bilimler (Lise)</h4>
-                        <p class="text-gray-500 text-sm">Kemer Anadolu Lisesi</p>
-                    </div>
-                </div>
-            </div>
-
-            <div>
-                <h2 class="text-3xl font-bold text-white mb-10 border-b border-white/10 pb-4">Sertifika & Eğitimler</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div class="bg-white/5 p-4 rounded-xl border border-white/10">
-                        <h4 class="text-white font-bold text-sm">Bilgisayar İşletmenlik Sertifikası</h4>
-                        <p class="text-gray-500 text-xs mt-1">Antalya Asmek | Ekim 2024</p>
-                    </div>
-                    <div class="bg-white/5 p-4 rounded-xl border border-white/10">
-                        <h4 class="text-white font-bold text-sm">Athena Eğitim Sertifikası</h4>
-                        <p class="text-gray-500 text-xs mt-1">Athena Bilgisayar | Nisan 2015</p>
-                    </div>
-                    <div class="bg-white/5 p-4 rounded-xl border border-white/10">
-                        <h4 class="text-white font-bold text-sm">On-line Satış ve Sosyal Medya</h4>
-                        <p class="text-gray-500 text-xs mt-1">Sejour / Afyon Turizm Fak. | Mart 2015</p>
-                    </div>
-                    <div class="bg-white/5 p-4 rounded-xl border border-white/10">
-                        <h4 class="text-white font-bold text-sm">Girişimcilik</h4>
-                        <p class="text-gray-500 text-xs mt-1">KOSGEB | Eyl 2013 - Eki 2014</p>
-                    </div>
-                    <div class="bg-white/5 p-4 rounded-xl border border-white/10">
-                        <h4 class="text-white font-bold text-sm">Teşekkür ve Katılım Sertifikası</h4>
-                        <p class="text-gray-500 text-xs mt-1">Sandıklı MYO Sempozyum | Ekim 2014</p>
-                    </div>
-                    <div class="bg-white/5 p-4 rounded-xl border border-white/10">
-                        <h4 class="text-white font-bold text-sm">Rezervasyon Operasyon Eğitimi</h4>
-                        <p class="text-gray-500 text-xs mt-1">Anı Tur | Mart 2014</p>
-                    </div>
-                </div>
-            </div>
-
+    <footer id="contact" class="py-16 px-6 md:px-10 border-t border-white/5 text-center">
+        <h3 class="text-3xl font-bold text-white mb-8">Projeleriniz için buradayım.</h3>
+        <div class="flex justify-center gap-8 mb-10 text-2xl">
+            <a href="mailto:4yazkaradag@gmail.com" class="text-gray-500 hover:text-white transition"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://linkedin.com/in/ayaz-karadağ-1ab77111b" target="_blank" class="text-gray-500 hover:text-white transition"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://instagram.com/ayazxley/" target="_blank" class="text-gray-500 hover:text-white transition"><i class="fa-brands fa-instagram"></i></a>
+            <a href="tel:+905447704080" class="text-gray-500 hover:text-white transition"><i class="fa-solid fa-phone"></i></a>
         </div>
-    </section>
-
-    <section id="skills" class="py-20 px-6 md:px-10">
-        <div class="max-w-7xl mx-auto text-center">
-            <h2 class="text-3xl font-bold text-white mb-12 border-b border-white/10 pb-4 inline-block">Teknik & Sektörel Yetenekler</h2>
-            <div class="flex flex-wrap justify-center gap-3 md:gap-4">
-                <span class="glass-card px-6 py-3 rounded-full text-sm font-semibold hover:text-blue-400">Python</span>
-                <span class="glass-card px-6 py-3 rounded-full text-sm font-semibold hover:text-blue-400">Kali Linux</span>
-                <span class="glass-card px-6 py-3 rounded-full text-sm font-semibold hover:text-blue-400">Sunucu Yönetimi</span>
-                <span class="glass-card px-6 py-3 rounded-full text-sm font-semibold hover:text-blue-400">Cpanel</span>
-                <span class="glass-card px-6 py-3 rounded-full text-sm font-semibold hover:text-blue-400">Rezervasyon Sistemleri</span>
-                <span class="glass-card px-6 py-3 rounded-full text-sm font-semibold hover:text-blue-400">Web Sunucusu</span>
-                <span class="glass-card px-6 py-3 rounded-full text-sm font-semibold hover:text-blue-400">SMTP</span>
-                <span class="glass-card px-6 py-3 rounded-full text-sm font-semibold hover:text-blue-400">Web Tasarım</span>
-                <span class="glass-card px-6 py-3 rounded-full text-sm font-semibold hover:text-blue-400">Siber Güvenlik</span>
-                <span class="glass-card px-6 py-3 rounded-full text-sm font-semibold hover:text-blue-400">Turizm Uygulamaları</span>
-                <span class="glass-card px-6 py-3 rounded-full text-sm font-semibold hover:text-blue-400">Bilgisayar Yönetimi</span>
-                <span class="glass-card px-6 py-3 rounded-full text-sm font-semibold hover:text-blue-400">İleri Seviye Donanım</span>
-            </div>
-        </div>
-    </section>
-
-    <footer id="contact" class="py-16 px-6 md:px-10 border-t border-white/5 bg-[#050816]">
-        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-10">
-            <div class="text-center md:text-left">
-                <h3 class="text-3xl font-bold text-white mb-2 italic">Bağlantıda Kalalım.</h3>
-                <p class="text-gray-500">Antalya, Kepez | 4yazkaradag@gmail.com | +90 (544) 770 40 80</p>
-            </div>
-            <div class="flex space-x-6 text-2xl">
-                <a href="tel:+905447704080" class="text-gray-500 hover:text-blue-500 transition"><i class="fa-solid fa-phone"></i></a>
-                <a href="mailto:4yazkaradag@gmail.com" class="text-gray-500 hover:text-blue-500 transition"><i class="fa-solid fa-envelope"></i></a>
-                <a href="https://linkedin.com/in/ayaz-karadağ-1ab77111b" target="_blank" class="text-gray-500 hover:text-blue-500 transition"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://instagram.com/ayazxley/" target="_blank" class="text-gray-500 hover:text-blue-500 transition"><i class="fa-brands fa-instagram"></i></a>
-            </div>
-        </div>
-        <div class="mt-16 text-center text-gray-700 text-xs tracking-widest uppercase">
-            &copy; 2026 Ayaz Karadağ. Tüm Hakları Saklıdır.
-        </div>
+        <p class="text-gray-700 text-[10px] uppercase tracking-widest">© 2026 AYAZ KARADAĞ - BU SAYFA BİR AYAZLABS ÜRETİMİDİR</p>
     </footer>
 
 </body>
